@@ -1,0 +1,129 @@
+html {
+  font-family: "Zilla Slab", serif !important;
+}
+
+.container {
+  height: 100vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0px 8% !important;
+  gap: 5% !important;
+}
+
+.otp-container {
+  height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.flex-center {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.flex-align {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.img {
+  width: 30% !important;
+}
+
+.strength {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.oauth {
+  width: 100% !important;
+  background-color: #0f0e0e !important;
+}
+
+.small {
+  font-size: 0.8rem !important;
+  width: 125px !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+}
+
+.main-container {
+  padding: 20px !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.actions {
+  cursor: pointer !important;
+}
+
+.table-icon {
+  font-size: 2.1rem !important;
+  display: flex !important;
+  margin-left: 20px !important;
+}
+
+.nextui-c-jhJWUH {
+  background: none !important;
+}
+
+.cell {
+  display: flex !important;
+  align-items: center !important;
+  gap: 15px !important;
+  margin-left: 10px !important;
+}
+
+.card-flex {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 30px !important;
+}
+
+.card-fields {
+  width: 360px !important;
+}
+
+.btn-container {
+  display: flex !important;
+  gap: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.pwd-padding {
+  align-items: center !important;
+  padding: 10px !important;
+}
+
+.avatars {
+  width: 100px !important;
+  padding: 5px !important;
+}
+
+.border {
+  border: 2px solid #fff !important;
+  border-radius: 20px !important;
+  padding: 5px !important;
+}
+
+.check {
+  position: absolute !important;
+  width: 20px !important;
+}
+
+@media only screen and (max-width: 750px) {
+  html {
+    display: none !important;
+  }
+}
